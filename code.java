@@ -93,6 +93,23 @@ class Everyone extends Spirit
     long population = 117_000_000_000_00L;
 }
 
+class Vessel
+{
+    
+}
+
+class Human extends Vessel
+{
+    Spirit spirit;
+
+    public Human()
+    {
+	spirit = null;
+	Spirit newSpirit = new Spirit();
+	newSpirit.enterHuman(this);
+    }
+}
+
 class Spirit
 {
     public int sinCounter = 0;
@@ -100,11 +117,20 @@ class Spirit
 
     public int livesDestroyed = 0;
     public int livesSaved = 0;
+
+    public Vessel vessel;
     
     public Spirit()
     {
 	attackSin();
 	attackGod();
+    }
+
+    public boolean enterHuman(Human human)
+    {
+	vessel = human;
+	human.spirit = this;
+	return true;
     }
 
     public int removeBluff()
