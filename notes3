@@ -1,3 +1,44 @@
+10:47AM THu Sep 17 2026
+What is good, is that I want to build some code.
+Code for an operating system.
+
+The way we can do this is build a class
+Class Java OS
+fields: processor, RAM, cache
+methods: start(), boot()
+
+for the boot() method:
+hardcode a bootloader
+tell the system to load D-OS
+     put things in memory
+     run some code
+     setup system
+Once system booted, show screen:
+     Login page:
+     Use webcam to scan face
+     Have user type in random 5 keys or any number of keys
+     Have user make eye contact
+
+     Use AI algorithm to check if key matches
+     Login.
+
+One of the benefits of this system, is it has a fancy keyboard
+It is the original keyboard we all use,
+but it has AI built into it.
+We type as normal, but everytime we make a mistake on our keyboard
+a typing error, it records our true intent.
+A Heuristic algorithm is generated that predicts what we are going to type
+Slowly, for simple words that can be predicted, a green light is shown on the screen
+This signals that you can type anything on the keyboard in order to type the word
+"the" for example, which is too common.
+The keyboard, like the login screen, then matches the facial expression with
+the original intent, and slowly builds an algorithm to match the true intent
+with what was typed.
+It's experimental still developing good concept
+
+One good program I can make to start it off is to make a heuristic
+search program that tries to capture or predict what I am going to type.
+
 Today
 12:02AM Sep 17 2026
 It's a good day.
